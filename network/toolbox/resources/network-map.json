@@ -1,0 +1,12 @@
+{
+    "ssh_key": null,
+
+    "network_map": {
+        "pc1": "192.168.1.1"
+    },
+
+    "ssh_location_map": {
+        "pc1": ["remote_source_dir", "local_target_dir", "pc1"]
+    }
+
+}
