@@ -1,5 +1,5 @@
 import random
-from op_base import *
+from .op_base import *
 
 class UtilOperationRandomize(UtilOperation):
     CODE_SAMPLE_INT = 0

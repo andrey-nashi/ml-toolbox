@@ -1,8 +1,11 @@
 import json
-from core import *
+from core.graph import *
 
-f = open("exp.json", "r")
-experiment_config = json.load(f)
-f.close()
 
-ExperimentLauncher.run(experiment_config)
+g = OperationGraph()
+
+op_file = FileOperationReadJSON("test.json", "path_image", "target")
+g.add_node(op_file, True)
+
+print(len(g))
+print(g.__getitem__(0))

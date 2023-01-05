@@ -1,3 +1,4 @@
+
 class OperationTypes:
     OP_TYPE_NONE = -1
     OP_TYPE_NP_IMAGE = 0
@@ -27,3 +28,15 @@ class UtilOperation:
 
     def execute(self, **kwargs):
         pass
+
+
+class DataSource:
+
+    def __init__(self):
+        pass
+
+    def __len__(self):
+        return 0
+
+    def __getitem__(self, index: int):
+        return None

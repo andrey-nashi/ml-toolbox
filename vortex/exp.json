@@ -2,7 +2,7 @@
   "train":
   {
       "graph": [
-        {"op_name": "source_csv", "op_args": {"path": "exp.json"}, "op_output": []}
+        {"op_name": "file", "op_args": {"path": "exp.json"}, "op_output": []}
       ],
 
       "model": {"name": "SmpUnet", "args": {}}
