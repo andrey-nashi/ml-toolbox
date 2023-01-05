@@ -1,0 +1,14 @@
+{
+  "train":
+  {
+      "graph": [
+        {"op_name": "source_csv", "op_args": {"path": "exp.json"}, "op_output": []}
+      ],
+
+      "model": {"name": "SmpUnet", "args": {}}
+  },
+
+  "test": {
+
+  }
+}
