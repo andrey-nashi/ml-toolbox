@@ -1,5 +1,18 @@
 {
   "dataset": [
-    {"path_image": "/home/indra/", "target":  0}
+    {
+      "path_image": "/home/indra/Development/test-x/leeds/images/0010001.png",
+      "path_mask":  "/home/indra/Development/test-x/leeds/segmentations/0010001_seg0.png"
+    },
+
+        {
+      "path_image": "/home/indra/Development/test-x/leeds/images/0010002.png",
+      "path_mask":  "/home/indra/Development/test-x/leeds/segmentations/0010002_seg0.png"
+    },
+
+        {
+      "path_image": "/home/indra/Development/test-x/leeds/images/0010004.png",
+      "path_mask":  "/home/indra/Development/test-x/leeds/segmentations/0010004_seg0.png"
+    }
   ]
 }
