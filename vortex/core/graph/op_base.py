@@ -5,6 +5,7 @@ class OperationTypes:
     OP_TYPE_NUMERIC = 1
     OP_TYPE_INT = 2
     OP_TYPE_FLOAT = 3
+    OP_TYPE_STRING = 4
 
 
 class ImageOperation:
